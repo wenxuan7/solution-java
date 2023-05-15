@@ -10,14 +10,22 @@
     <packaging>pom</packaging>
     <modules>
         <module>solution-redis</module>
+        <module>solution-spring</module>
+        <module>solution-jackson</module>
+        <module>solution-jdk1.8</module>
+        <module>solution-fastjson</module>
     </modules>
 
     <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.redisson>3.20.1</version.redisson>
         <version.junit>3.8.1</version.junit>
         <version.log4j>2.17.1</version.log4j>
         <version.jackson>2.14.2</version.jackson>
         <version.fastjson>1.2.83</version.fastjson>
+        <version.spring>5.2.23.RELEASE</version.spring>
     </properties>
 
     <dependencyManagement>
@@ -38,6 +46,11 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
+                <version>${version.jackson}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-xml</artifactId>
                 <version>${version.jackson}</version>
             </dependency>
 
@@ -62,6 +75,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${version.fastjson}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${version.spring}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
