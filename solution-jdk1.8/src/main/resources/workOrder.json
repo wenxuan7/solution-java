@@ -1,0 +1,588 @@
+{
+  "code":0,
+  "data":{
+    "content":[
+      {
+        "appKey":"",
+        "comment":"",
+        "companyEnv":"线上",
+        "companyId":307171,
+        "companyName":"广东东江牧场食品科技有限公司",
+        "created":1735804687000,
+        "creator":"雷泽",
+        "creatorId":"q8sRvsDFT10qkCxQcQ6HLwiEiE",
+        "deptName":"线上培训组",
+        "description":"订单号:5141475597957571\n麻烦看下这个单怎么没自动拆单",
+        "files":[],
+        "finished":1735884611000,
+        "groupId":"cid63ut1Zfie8hYVOjnDVyRQw==",
+        "groupName":"ERP问题沟通群",
+        "id":"2jesRTFlKx0iE",
+        "isUser":"",
+        "malfunctionGrade":"p2",
+        "malfunctionGradeName":"三级故障(一般)",
+        "modified":1735884612039,
+        "module":"交易（包括订单：同步、订单自动化流程、审单等有关审单前的所有订单的业务）",
+        "operator":"艾叶-齐玲",
+        "operatorId":"6zQRqSBzrYMJiP7b13t201QiEiE",
+        "orderId":"",
+        "participant":"",
+        "picUrls":[
+          {
+            "fileName":"image.png",
+            "key":"ticket/attachment/54001/2084773/a0a078ccb3f3499294d9ff05818dbe1a_1735804659815.png",
+            "tempUrl":"http://lippi-servicegroup-default.oss-cn-zhangjiakou.aliyuncs.com/ticket/attachment/54001/2084773/a0a078ccb3f3499294d9ff05818dbe1a_1735804659815.png?Expires=1767340687&OSSAccessKeyId=LTAI4GEgWN6jfiyDJgBZbfnn&Signature=606TGPB%2BwSLKMFAFpvjrFe6JXdQ%3D"
+          },
+          {
+            "fileName":"image.png",
+            "key":"ticket/attachment/54001/2084773/256508e7a8a546fd801c8140b713eba2_1735804686290.png",
+            "tempUrl":"http://lippi-servicegroup-default.oss-cn-zhangjiakou.aliyuncs.com/ticket/attachment/54001/2084773/256508e7a8a546fd801c8140b713eba2_1735804686290.png?Expires=1767340687&OSSAccessKeyId=LTAI4GEgWN6jfiyDJgBZbfnn&Signature=SRk62sDO2cCPB2rd7Chu416VgUA%3D"
+          }
+        ],
+        "platformType":"",
+        "records":[
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"",
+            "nextLookTime":"2025-01-02 16:03:04",
+            "operRemark":"",
+            "operTime":"2025-01-02 15:58:07",
+            "operType":"创建",
+            "operator":"雷泽",
+            "operatorId":"q8sRvsDFT10qkCxQcQ6HLwiEiE",
+            "operatordata":"{}",
+            "overTime":""
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/d4b136f0263849d990fc75bb2fc947c3_1735806856243.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"0天 0时 4分 57秒",
+            "nextLookTime":"2025-01-02 16:40:37",
+            "operRemark":"clueId：21842807496302277\n有拆分动作，其中一个单执行失败报错，导致这个订单也没拆",
+            "operTime":"2025-01-02 16:35:39",
+            "operType":"转单",
+            "operator":"刺鼠-张昊宇",
+            "operatorId":"uklRLeWu771dOrzvgEiPazwiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"刺鼠-张昊宇\",\"unionId\":\"uklRLeWu771dOrzvgEiPazwiEiE\"},\"newProcessors\":[{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"}]}",
+            "overTime":"0天 0时 32分 35秒"
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/0a9fb3f0f81d42e5b9a9620a9d88e6d6_1735809944602.png",
+                "tempUrl":""
+              },
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/ebe0a8b13eca4b908fff557bc0c95eee_1735809952180.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"0天 0时 4分 58秒",
+            "nextLookTime":"2025-01-02 17:27:57",
+            "operRemark":"帮忙看看，大佬。\n 多个订单走这个逻辑时，com.raycloud.dmj.business.split.SplitUtils#validateSplitNum 底层有个判断梳理的方法抛出异常会导致后续订单不在走拆分逻辑了。这个异常是层层往上抛的，中间没try catch",
+            "operTime":"2025-01-02 17:26:16",
+            "operType":"转单",
+            "operator":"茄目-吴长虎",
+            "operatorId":"cYL9pqo50yYiPeXZB8mW1pQiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"},\"newProcessors\":[{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"}]}",
+            "overTime":"0天 0时 45分 39秒"
+          },
+          {
+            "attachments":[],
+            "isView":"1",
+            "lookTime":"0天 0时 1分 41秒",
+            "nextLookTime":"2025-01-03 14:09:58",
+            "operRemark":"测试帮忙建立一个优化",
+            "operTime":"2025-01-02 17:43:05",
+            "operType":"转单",
+            "operator":"侧柏-文选",
+            "operatorId":"n66BGTLt3nel8Q5qX1R9owiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"},\"newProcessors\":[{\"nickName\":\"艾叶-齐玲\",\"unionId\":\"6zQRqSBzrYMJiP7b13t201QiEiE\"}]}",
+            "overTime":"0天 0时 15分 9秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"",
+            "nextLookTime":"",
+            "operRemark":"齐玲: tbId: KMERP-232915\n\n1.记录tb，说明该问题是bug/优化/需求，可在实施群通过“tb需求状态查询”机器人通过tbid查询\n2.和记录tb的同学确认bug修复时间点和是否有临时解决方案\n3.影响较小的问题建议不要切到灰度，可与记录tb同学后续能否发布到预发，预发每周一修复一次bug",
+            "operTime":"2025-01-03 14:10:11",
+            "operType":"结单",
+            "operator":"艾叶-齐玲",
+            "operatorId":"6zQRqSBzrYMJiP7b13t201QiEiE",
+            "operatordata":"{}",
+            "overTime":"2025-01-03 14:10:11"
+          }
+        ],
+        "releaseRecords":[],
+        "remark":"",
+        "status":"已完成",
+        "tagIds":[],
+        "tagNames":"",
+        "tbId":"KMERP-232915",
+        "tbStatus":"待处理",
+        "tbUrl":"https://tb.raycloud.com/task/67777f4243c33040d128b450",
+        "templateBizId":"LGbefPpii7iP4iE",
+        "title":"公司名称：广东东江牧场食品科技有限公司-公司id：307171",
+        "type":"",
+        "wmsId":""
+      },
+      {
+        "appKey":"",
+        "comment":"",
+        "companyEnv":"灰度1",
+        "companyId":334379,
+        "companyName":"先锋团队",
+        "created":1735623745000,
+        "creator":"柏一-柏亿",
+        "creatorId":"FLIkvAfiPvIsJm6rWE5OeAwiEiE",
+        "deptName":"东莞",
+        "description":"订单号:173554\n订单拆分后没有按分仓规则重新匹配仓库，麻烦看一下，手动执行智能分仓可以，这个单应该匹配1号仓库",
+        "files":[],
+        "finished":1735632536000,
+        "groupId":"cid63ut1Zfie8hYVOjnDVyRQw==",
+        "groupName":"ERP问题沟通群",
+        "id":"OJ8GgR7JQjgiE",
+        "isUser":"",
+        "malfunctionGrade":"",
+        "malfunctionGradeName":"",
+        "modified":1735641344604,
+        "module":"交易（包括订单：同步、订单自动化流程、审单等有关审单前的所有订单的业务）",
+        "operator":"柏一-柏亿",
+        "operatorId":"FLIkvAfiPvIsJm6rWE5OeAwiEiE",
+        "orderId":"",
+        "participant":"",
+        "picUrls":[],
+        "platformType":"",
+        "records":[
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"",
+            "nextLookTime":"2024-12-31 13:42:41",
+            "operRemark":"",
+            "operTime":"2024-12-31 13:42:25",
+            "operType":"创建",
+            "operator":"柏一-柏亿",
+            "operatorId":"FLIkvAfiPvIsJm6rWE5OeAwiEiE",
+            "operatordata":"{}",
+            "overTime":""
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/6b1e8e50b2ac408d816b8a3c19285ad9_1735624881930.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"",
+            "nextLookTime":"",
+            "operRemark":"拆分重算仓库开了。",
+            "operTime":"2024-12-31 14:01:52",
+            "operType":"添加意见",
+            "operator":"刺鼠-张昊宇",
+            "operatorId":"uklRLeWu771dOrzvgEiPazwiEiE",
+            "operatordata":"{}",
+            "overTime":""
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/0ba075d98e8c4f74a416141a4e169a24_1735624931862.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"",
+            "nextLookTime":"",
+            "operRemark":"clueId：642335957787136\n根据配置自动拆分后，没有走到重算链路，日志都没有，麻烦看看",
+            "operTime":"2024-12-31 14:02:56",
+            "operType":"转单",
+            "operator":"刺鼠-张昊宇",
+            "operatorId":"uklRLeWu771dOrzvgEiPazwiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"刺鼠-张昊宇\",\"unionId\":\"uklRLeWu771dOrzvgEiPazwiEiE\"},\"newProcessors\":[{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"}]}",
+            "overTime":""
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"",
+            "nextLookTime":"2024-12-31 14:58:57",
+            "operRemark":"帮忙看看",
+            "operTime":"2024-12-31 14:58:28",
+            "operType":"转单",
+            "operator":"茄目-吴长虎",
+            "operatorId":"cYL9pqo50yYiPeXZB8mW1pQiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"},\"newProcessors\":[{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"}]}",
+            "overTime":"2024-12-31 14:58:28"
+          },
+          {
+            "attachments":[],
+            "isView":"1",
+            "lookTime":"0天 0时 0分 29秒",
+            "nextLookTime":"2024-12-31 16:07:42",
+            "operRemark":"分销的同学 灰度五已修复这个问题",
+            "operTime":"2024-12-31 15:13:27",
+            "operType":"转单",
+            "operator":"侧柏-文选",
+            "operatorId":"n66BGTLt3nel8Q5qX1R9owiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"},\"newProcessors\":[{\"nickName\":\"柏一-柏亿\",\"unionId\":\"FLIkvAfiPvIsJm6rWE5OeAwiEiE\"}]}",
+            "overTime":"0天 0时 14分 31秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"",
+            "nextLookTime":"",
+            "operRemark":"柏亿:1",
+            "operTime":"2024-12-31 16:08:56",
+            "operType":"结单",
+            "operator":"柏一-柏亿",
+            "operatorId":"FLIkvAfiPvIsJm6rWE5OeAwiEiE",
+            "operatordata":"{}",
+            "overTime":"2024-12-31 16:08:56"
+          }
+        ],
+        "releaseRecords":[],
+        "remark":"",
+        "status":"已完成",
+        "tagIds":[],
+        "tagNames":"",
+        "tbId":"",
+        "tbStatus":"",
+        "tbUrl":"",
+        "templateBizId":"LGbefPpii7iP4iE",
+        "title":"公司名称：先锋团队-公司id：334379",
+        "type":"",
+        "wmsId":""
+      },
+      {
+        "appKey":"",
+        "comment":"",
+        "companyEnv":"灰度6",
+        "companyId":66245,
+        "companyName":"孟婆愿2店",
+        "created":1735609554000,
+        "creator":"苏木-陈伟明",
+        "creatorId":"T5aYPTrdpWgiE",
+        "deptName":"研发部",
+        "description":"订单号:平台订单号：6918220160617577648\n拆单后为什么没有拆单的标记",
+        "files":[],
+        "finished":1735639206000,
+        "groupId":"cid63ut1Zfie8hYVOjnDVyRQw==",
+        "groupName":"ERP问题沟通群",
+        "id":"6NaoT85GFtwiE",
+        "isUser":"",
+        "malfunctionGrade":"p2",
+        "malfunctionGradeName":"三级故障(一般)",
+        "modified":1735639207353,
+        "module":"交易（包括订单：同步、订单自动化流程、审单等有关审单前的所有订单的业务）",
+        "operator":"蓝花-罗丹",
+        "operatorId":"kfzew4bVTnocn4qI9V9DvAiEiE",
+        "orderId":"",
+        "participant":"",
+        "picUrls":[],
+        "platformType":"",
+        "records":[
+          {
+            "attachments":[],
+            "isView":"1",
+            "lookTime":"",
+            "nextLookTime":"2024-12-31 09:54:25",
+            "operRemark":"",
+            "operTime":"2024-12-31 09:45:54",
+            "operType":"创建",
+            "operator":"苏木-陈伟明",
+            "operatorId":"T5aYPTrdpWgiE",
+            "operatordata":"{}",
+            "overTime":""
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/905446ad612b4b51a7c65676cbb30cf8_1735610219853.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"0天 0时 8分 31秒",
+            "nextLookTime":"2024-12-31 10:10:20",
+            "operRemark":"帮忙看看，没有拆单标记",
+            "operTime":"2024-12-31 09:57:00",
+            "operType":"转单",
+            "operator":"柏舟-袁哲轶",
+            "operatorId":"DGzD5KME8ja95ow0FsvDugiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"柏舟-袁哲轶\",\"unionId\":\"DGzD5KME8ja95ow0FsvDugiEiE\"},\"newProcessors\":[{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"}]}",
+            "overTime":"0天 0时 2分 35秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"0天 0时 13分 20秒",
+            "nextLookTime":"2024-12-31 14:59:14",
+            "operRemark":"帮忙看看",
+            "operTime":"2024-12-31 14:56:00",
+            "operType":"转单",
+            "operator":"茄目-吴长虎",
+            "operatorId":"cYL9pqo50yYiPeXZB8mW1pQiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"},\"newProcessors\":[{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"}]}",
+            "overTime":"0天 4时 45分 40秒"
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"CleanShot 2024-12-31 at 15.41.28.png",
+                "key":"ticket/attachment/54001/2084773/c29f0f46b0ac478bb929936be177b613_1735631020885.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"0天 0时 3分 14秒",
+            "nextLookTime":"2024-12-31 15:49:01",
+            "operRemark":"操作了智能合单\n拆单和普通单合单前对拆单做了取消拆分的操作 导致了了split_sid = -1\n后续按库存拆分把拆单拆分出去 但是拆单丢了split_sid",
+            "operTime":"2024-12-31 15:45:30",
+            "operType":"转单",
+            "operator":"侧柏-文选",
+            "operatorId":"n66BGTLt3nel8Q5qX1R9owiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"},\"newProcessors\":[{\"nickName\":\"柏舟-袁哲轶\",\"unionId\":\"DGzD5KME8ja95ow0FsvDugiEiE\"}]}",
+            "overTime":"0天 0时 46分 17秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"0天 0时 3分 31秒",
+            "nextLookTime":"",
+            "operRemark":"测试大佬麻烦看看，帮忙记tb",
+            "operTime":"2024-12-31 15:49:50",
+            "operType":"转单",
+            "operator":"柏舟-袁哲轶",
+            "operatorId":"DGzD5KME8ja95ow0FsvDugiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"柏舟-袁哲轶\",\"unionId\":\"DGzD5KME8ja95ow0FsvDugiEiE\"},\"newProcessors\":[{\"nickName\":\"艾叶-齐玲\",\"unionId\":\"6zQRqSBzrYMJiP7b13t201QiEiE\"}]}",
+            "overTime":"0天 0时 0分 50秒"
+          },
+          {
+            "attachments":[],
+            "isView":"1",
+            "lookTime":"",
+            "nextLookTime":"2024-12-31 17:26:44",
+            "operRemark":"帮忙复现看看",
+            "operTime":"2024-12-31 17:23:54",
+            "operType":"转单",
+            "operator":"艾叶-齐玲",
+            "operatorId":"6zQRqSBzrYMJiP7b13t201QiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"艾叶-齐玲\",\"unionId\":\"6zQRqSBzrYMJiP7b13t201QiEiE\"},\"newProcessors\":[{\"nickName\":\"蓝花-罗丹\",\"unionId\":\"kfzew4bVTnocn4qI9V9DvAiEiE\"}]}",
+            "overTime":""
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"",
+            "nextLookTime":"",
+            "operRemark":"罗丹: tbId: KMERP-232486\n\n1.记录tb，说明该问题是bug/优化/需求，可在实施群通过“tb需求状态查询”机器人通过tbid查询\n2.和记录tb的同学确认bug修复时间点和是否有临时解决方案\n3.影响较小的问题建议不要切到灰度，可与记录tb同学后续能否发布到预发，预发每周一修复一次bug",
+            "operTime":"2024-12-31 18:00:06",
+            "operType":"结单",
+            "operator":"蓝花-罗丹",
+            "operatorId":"kfzew4bVTnocn4qI9V9DvAiEiE",
+            "operatordata":"{}",
+            "overTime":"2024-12-31 18:00:06"
+          }
+        ],
+        "releaseRecords":[],
+        "remark":"",
+        "status":"已完成",
+        "tagIds":[],
+        "tagNames":"",
+        "tbId":"KMERP-232486",
+        "tbStatus":"待处理",
+        "tbUrl":"https://tb.raycloud.com/task/6773c0a643c33040d1273e18",
+        "templateBizId":"LGbefPpii7iP4iE",
+        "title":"公司名称：孟婆愿2店-公司id：66245",
+        "type":"",
+        "wmsId":""
+      },
+      {
+        "appKey":"",
+        "comment":"",
+        "companyEnv":"线上",
+        "companyId":155378,
+        "companyName":"徐州市和美意文化创意有限公司",
+        "created":1735554971000,
+        "creator":"氤氲-莫亚文",
+        "creatorId":"gIe1LUjZp7sviPbtCG9HWBAiEiE",
+        "deptName":"麦芒组",
+        "description":"规格商家编码：202410029，麻烦看下这个商品在加工建议这边为什么缺货数会有1万多件，订单锁单才1000多",
+        "files":[],
+        "groupId":"cid63ut1Zfie8hYVOjnDVyRQw==",
+        "groupName":"ERP问题沟通群",
+        "id":"KvBJxrddY0EiE",
+        "isUser":"",
+        "malfunctionGrade":"",
+        "malfunctionGradeName":"",
+        "modified":1736078434817,
+        "module":"仓储/波次/采购/pda",
+        "operator":"侧柏-文选",
+        "operatorId":"n66BGTLt3nel8Q5qX1R9owiEiE",
+        "orderId":"",
+        "participant":"",
+        "picUrls":[
+          {
+            "fileName":"7ed83d463552a59929d4466b1f49eb1.png",
+            "key":"ticket/attachment/54001/2084773/84b8897a9bb34842840504ee44dfbae0_1735554917956.png",
+            "tempUrl":"http://lippi-servicegroup-default.oss-cn-zhangjiakou.aliyuncs.com/ticket/attachment/54001/2084773/84b8897a9bb34842840504ee44dfbae0_1735554917956.png?Expires=1767090972&OSSAccessKeyId=LTAI4GEgWN6jfiyDJgBZbfnn&Signature=dFhFzsPcEGQL%2BtaYVy1%2Bc6fpsMs%3D"
+          }
+        ],
+        "platformType":"",
+        "records":[
+          {
+            "attachments":[],
+            "isView":"1",
+            "lookTime":"",
+            "nextLookTime":"2024-12-30 19:41:15",
+            "operRemark":"",
+            "operTime":"2024-12-30 18:36:11",
+            "operType":"创建",
+            "operator":"氤氲-莫亚文",
+            "operatorId":"gIe1LUjZp7sviPbtCG9HWBAiEiE",
+            "operatordata":"{}",
+            "overTime":""
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/c9b355341a6a45598c9477049f110a5b_1735559078010.png",
+                "tempUrl":""
+              },
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/4b89c645457a4d5481cf111db80af6ae_1735559093976.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"0天 1时 5分 4秒",
+            "nextLookTime":"2024-12-31 10:24:47",
+            "operRemark":"帮忙看下 这个值怎么取的 可用数只有-1026\n/caigou/analysis/list",
+            "operTime":"2024-12-30 19:46:05",
+            "operType":"转单",
+            "operator":"乌荔-王朋",
+            "operatorId":"g4ZswwMI7ySjfTZ5n4MoJAiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"乌荔-王朋\",\"unionId\":\"g4ZswwMI7ySjfTZ5n4MoJAiEiE\"},\"newProcessors\":[{\"nickName\":\"落晖-郭帅强\",\"unionId\":\"bwYhIBZUIO1ZRnXiixPBGhAiEiE\"}]}",
+            "overTime":"0天 0时 4分 51秒"
+          },
+          {
+            "attachments":[
+              {
+                "fileName":"image.png",
+                "key":"ticket/attachment/54001/2084773/13fc6c7abeac4346a858a005f3fab988_1735614171633.png",
+                "tempUrl":""
+              }
+            ],
+            "isView":"1",
+            "lookTime":"0天 14时 38分 42秒",
+            "nextLookTime":"2024-12-31 11:05:21",
+            "operRemark":"转交易帮忙看下，订单5137511543462486多次拆单，但是difference_value没有改变，导致加工建议这边查询的缺货数重复了。 select * from stock_order_record_18 where company_id = 155378 and sys_item_id=631180796783104 and enable_status = 1\n",
+            "operTime":"2024-12-31 11:05:17",
+            "operType":"转单",
+            "operator":"落晖-郭帅强",
+            "operatorId":"bwYhIBZUIO1ZRnXiixPBGhAiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"落晖-郭帅强\",\"unionId\":\"bwYhIBZUIO1ZRnXiixPBGhAiEiE\"},\"newProcessors\":[{\"nickName\":\"乌荔-王朋\",\"unionId\":\"g4ZswwMI7ySjfTZ5n4MoJAiEiE\"}]}",
+            "overTime":"0天 0时 40分 30秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"0天 0时 0分 4秒",
+            "nextLookTime":"2024-12-31 15:02:15",
+            "operRemark":"cc",
+            "operTime":"2024-12-31 11:05:54",
+            "operType":"转单",
+            "operator":"乌荔-王朋",
+            "operatorId":"g4ZswwMI7ySjfTZ5n4MoJAiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"乌荔-王朋\",\"unionId\":\"g4ZswwMI7ySjfTZ5n4MoJAiEiE\"},\"newProcessors\":[{\"nickName\":\"柏舟-袁哲轶\",\"unionId\":\"DGzD5KME8ja95ow0FsvDugiEiE\"}]}",
+            "overTime":"0天 0时 0分 33秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"0天 3时 56分 21秒",
+            "nextLookTime":"2024-12-31 15:51:45",
+            "operRemark":"帮忙看看",
+            "operTime":"2024-12-31 15:02:29",
+            "operType":"转单",
+            "operator":"柏舟-袁哲轶",
+            "operatorId":"DGzD5KME8ja95ow0FsvDugiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"柏舟-袁哲轶\",\"unionId\":\"DGzD5KME8ja95ow0FsvDugiEiE\"},\"newProcessors\":[{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"}]}",
+            "overTime":"0天 0时 0分 15秒"
+          },
+          {
+            "attachments":[],
+            "isView":"0",
+            "lookTime":"0天 0时 49分 16秒",
+            "nextLookTime":"2025-01-02 10:34:35",
+            "operRemark":"帮忙看看",
+            "operTime":"2024-12-31 18:27:23",
+            "operType":"转单",
+            "operator":"茄目-吴长虎",
+            "operatorId":"cYL9pqo50yYiPeXZB8mW1pQiEiE",
+            "operatordata":"{\"oldProcessor\":{\"nickName\":\"茄目-吴长虎\",\"unionId\":\"cYL9pqo50yYiPeXZB8mW1pQiEiE\"},\"newProcessors\":[{\"nickName\":\"侧柏-文选\",\"unionId\":\"n66BGTLt3nel8Q5qX1R9owiEiE\"}]}",
+            "overTime":"0天 2时 35分 39秒"
+          }
+        ],
+        "releaseRecords":[],
+        "remark":"",
+        "status":"处理中",
+        "tagIds":[],
+        "tagNames":"",
+        "tbId":"",
+        "tbStatus":"",
+        "tbUrl":"",
+        "templateBizId":"LGbefPpii7iP4iE",
+        "title":"公司名称：徐州市和美意文化创意有限公司-公司id：155378",
+        "type":"",
+        "wmsId":""
+      }
+    ],
+    "empty":false,
+    "first":true,
+    "last":true,
+    "number":0,
+    "numberOfElements":4,
+    "pageable":{
+      "offset":0,
+      "pageNumber":0,
+      "pageSize":100,
+      "paged":true,
+      "sort":{
+        "empty":false,
+        "sorted":true,
+        "unsorted":false
+      },
+      "unpaged":false
+    },
+    "size":100,
+    "sort":{
+      "empty":false,
+      "sorted":true,
+      "unsorted":false
+    },
+    "totalElements":4,
+    "totalPages":1
+  },
+  "message":"success",
+  "result":1
+}

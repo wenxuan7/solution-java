@@ -14,18 +14,22 @@
         <module>solution-jackson</module>
         <module>solution-jdk1.8</module>
         <module>solution-fastjson</module>
+        <module>solution-lombok</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.redisson>3.20.1</version.redisson>
-        <version.junit>3.8.1</version.junit>
-        <version.log4j>2.17.1</version.log4j>
-        <version.jackson>2.14.2</version.jackson>
+        <version.redisson>3.45.1</version.redisson>
+        <version.junit>4.13.2</version.junit>
+        <version.log4j>2.24.3</version.log4j>
+        <version.jackson>2.18.1</version.jackson>
         <version.fastjson>1.2.83</version.fastjson>
-        <version.spring>5.2.23.RELEASE</version.spring>
+        <version.spring>6.2.4</version.spring>
+        <version.lombok>1.18.36</version.lombok>
+        <version.guava>33.4.5-jre</version.guava>
+        <version.apachecommon>3.17.0</version.apachecommon>
     </properties>
 
     <dependencyManagement>
@@ -81,6 +85,23 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>${version.spring}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${version.apachecommon}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${version.guava}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${version.lombok}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,629 @@
+{
+  "nextPageToken": "",
+  "count": 4,
+  "result": [
+    {
+      "_id": "62e0af81e6c0ae001d3cbaad",
+      "_creatorId": "5cb6be29647a2f00016e4da4",
+      "_executorId": "5e79c934ddaf0c000132b2d1",
+      "_projectId": "5b757f62188bc70018b1d470",
+      "_tasklistId": "62c529670b4c77001d41a387",
+      "_organizationId": null,
+      "tagIds": [],
+      "_stageId": "62c529670b4c77001d41a388",
+      "visible": "members",
+      "involveMembers": [
+        "5cb6be29647a2f00016e4da4",
+        "5e79c934ddaf0c000132b2d1",
+        "5907ee85885a7d703b20445d",
+        "5aa1f4d10fe16500016f595e",
+        "573472c25dc5751f3e7e8a9a",
+        "5fb232dd1f9f030001189d43",
+        "6142ae661f9f03000118a1f9"
+      ],
+      "workTime": {
+        "totalTime": 0,
+        "usedTime": 0,
+        "unit": "minute"
+      },
+      "updated": "2024-12-17T02:16:32.318Z",
+      "created": "2022-07-27T03:22:41.371Z",
+      "isArchived": false,
+      "isDone": false,
+      "isTopInProject": false,
+      "priority": 1,
+      "pos": 1722122240,
+      "startDate": null,
+      "dueDate": "2023-10-31T10:00:00.000Z",
+      "accomplished": null,
+      "note": "参考文档：[https://gykj.yuque.com/entavv/eltb2u/doatbi](https://gykj.yuque.com/entavv/eltb2u/doatbi)",
+      "content": "Q3-交易配置改造",
+      "recurrence": null,
+      "_sourceId": null,
+      "sourceDate": null,
+      "subtasks": [],
+      "ancestorIds": [],
+      "customfields": [
+        {
+          "_customfieldId": "62bf4abef41f4f29970d6de6",
+          "type": "commongroup",
+          "values": [],
+          "value": [
+            {
+              "_id": "62554c0d8b3d640012ff3c30",
+              "title": "交易技术优化"
+            }
+          ]
+        },
+        {
+          "_customfieldId": "62bf4abef41f4f29970d6e39",
+          "type": "multipleChoice",
+          "values": [
+            "5f2bcb320f7fa70001efe425",
+            "5f2bcb320f7fa70001efe426",
+            "5f2bcb320f7fa70001efe427"
+          ],
+          "value": [
+            {
+              "_id": "5f2bcb320f7fa70001efe425",
+              "title": "交易打印线"
+            },
+            {
+              "_id": "5f2bcb320f7fa70001efe426",
+              "title": "商品库存线"
+            },
+            {
+              "_id": "5f2bcb320f7fa70001efe427",
+              "title": "仓储采购线"
+            }
+          ]
+        }
+      ],
+      "commentsCount": 0,
+      "attachmentsCount": 0,
+      "likesCount": 0,
+      "objectlinksCount": 0,
+      "uniqueId": 99444,
+      "badges": {
+        "objectlinksCount": 0,
+        "commentsCount": 0,
+        "attachmentsCount": 0,
+        "likesCount": 0
+      },
+      "subtaskCount": {
+        "total": 4,
+        "done": 3
+      },
+      "reminder": {
+        "type": "unset",
+        "date": null,
+        "members": [],
+        "_creatorId": null,
+        "rules": []
+      },
+      "storyPoint": null,
+      "progress": 0,
+      "rating": 0,
+      "isFavorite": false,
+      "_scenariofieldconfigId": "5b757f62bd658b0001a87051",
+      "shareStatus": 0,
+      "_sprintId": null,
+      "_taskflowstatusId": "5b757f62188bc70018b1d473",
+      "effort": null,
+      "objectType": "task",
+      "source": "teambition",
+      "divisions": [
+        "scenariofields",
+        "trace",
+        "subtasks",
+        "links"
+      ],
+      "labels": [],
+      "relations": [],
+      "openId": "",
+      "customPos": {},
+      "untilDate": null,
+      "_taskId": null,
+      "project": {
+        "_id": "5b757f62188bc70018b1d470",
+        "name": "快麦ERP",
+        "isArchived": false,
+        "uniqueIdPrefix": "KMERP",
+        "_organizationId": "57b55d2ebcddfe4720025924"
+      },
+      "executor": {
+        "_id": "5e79c934ddaf0c000132b2d1",
+        "name": "文选",
+        "avatarUrl": "https://tboss.raycloud.com/thumbnail/011r3135645f3015bcb2b447222828f65e93/w/100/h/100"
+      },
+      "taskflowstatus": {
+        "_id": "5b757f62188bc70018b1d473",
+        "name": "开发中",
+        "kind": "unset",
+        "rejectStatusIds": [],
+        "pos": 66816,
+        "_taskflowId": "5b757f62188bc70018b1d471"
+      },
+      "organization": null,
+      "parent": null,
+      "relationsString": "[]",
+      "tags": [],
+      "priorityOption": {
+        "name": "普通",
+        "color": "blue"
+      }
+    },
+    {
+      "_id": "676b67d843c33040d123d2b1",
+      "_creatorId": "666947e46bb41e4f3358470e",
+      "_executorId": "5e79c934ddaf0c000132b2d1",
+      "_projectId": "5b757f62188bc70018b1d470",
+      "_tasklistId": "5b757f62188bc70018b1d481",
+      "_organizationId": null,
+      "tagIds": [],
+      "_stageId": "5b757f62188bc70018b1d489",
+      "visible": "members",
+      "involveMembers": [
+        "666947e46bb41e4f3358470e",
+        "554b929b967e03267e1dc7d5",
+        "5e79c934ddaf0c000132b2d1"
+      ],
+      "workTime": {
+        "totalTime": 0,
+        "usedTime": 0,
+        "unit": "minute"
+      },
+      "updated": "2024-12-26T06:39:39.073Z",
+      "created": "2024-12-25T02:03:04.933Z",
+      "isArchived": false,
+      "isDone": false,
+      "isTopInProject": false,
+      "priority": 0,
+      "pos": 65536,
+      "startDate": null,
+      "dueDate": null,
+      "accomplished": null,
+      "note": "\n\n交易配置改造的问题提交工单时用户所处环境：线上\n\n操作人：竹萝-陈美琪,.操作类型：创建.,.处理意见：null\n操作人：潇水-江昕,.操作类型：转单.,.处理意见：交易的配置找交易的同学查询一下记录\n操作人：竹萝-陈美琪,.操作类型：转单.,.处理意见：陈美琪修改工单模块，自动转交给袁哲轶\n操作人：柏舟-袁哲轶,.操作类型：转单.,.处理意见：这个客户之前被拉环境了，这个功能灰度一四没有，\n操作人：竹萝-陈美琪,.操作类型：转单.,.处理意见：但是今天客户操作保存之后..过了一会又没勾选了..再帮忙核实下\n操作人：柏舟-袁哲轶,.操作类型：转单.,.处理意见：这个能不能看一下这个后台保存的记录\n操作人：萧风-陈城,.操作类型：转单.,.处理意见：帮忙看看\n操作人：侧柏-文选,.操作类型：转单.,.处理意见：测试帮忙先记一个bug\n改造的问题\n操作人：艾叶-齐玲,.操作类型：转单.,.处理意见：帮忙记录下\n图片：\n![222](https://erp-storage-img-zb.oss-cn-zhangjiakou.aliyuncs.com/issue_1411735092184636)\n",
+      "content": "【故障】.JbXOll6baM8iE.240206.公司名称：义乌之桃围巾厂-公司id：240206.帮忙看下客户的这个配置是否是有人给取消勾选了还是系统更新给取消了....客户表示没人取消勾选这个配置.但是已经有2次看这个配置都没勾选.",
+      "recurrence": null,
+      "_sourceId": null,
+      "sourceDate": null,
+      "subtasks": [],
+      "ancestorIds": [
+        "676b67d843c33040d123d2ae"
+      ],
+      "customfields": [
+        {
+          "_customfieldId": "62bf4abef41f4f29970d6f0c",
+          "type": "dropDown",
+          "values": [
+            "637f1fecb2fe7f001dd129d9"
+          ],
+          "value": []
+        },
+        {
+          "_customfieldId": "62bf4abef41f4f29970d6e77",
+          "type": "dropDown",
+          "values": [
+            "59ed881a04cb056b8c0b387f"
+          ],
+          "value": [
+            {
+              "_id": "59ed881a04cb056b8c0b387f",
+              "title": "三级故障(一般)"
+            }
+          ]
+        },
+        {
+          "_customfieldId": "5ec6028e8d0424e9b7508861",
+          "type": "number",
+          "values": [
+            "120"
+          ],
+          "value": [
+            {
+              "title": "120",
+              "meta": {
+                "unit": "minute"
+              }
+            }
+          ]
+        }
+      ],
+      "commentsCount": 0,
+      "attachmentsCount": 0,
+      "likesCount": 0,
+      "objectlinksCount": 0,
+      "uniqueId": 231124,
+      "badges": {
+        "objectlinksCount": 0,
+        "commentsCount": 0,
+        "attachmentsCount": 0,
+        "likesCount": 0
+      },
+      "subtaskCount": {
+        "total": 0,
+        "done": 0
+      },
+      "reminder": {
+        "type": "unset",
+        "date": null,
+        "members": [],
+        "_creatorId": null,
+        "rules": []
+      },
+      "storyPoint": null,
+      "progress": 0,
+      "rating": 0,
+      "isFavorite": false,
+      "_scenariofieldconfigId": "61bfe4851fe55e393b4bd86e",
+      "shareStatus": 0,
+      "_sprintId": null,
+      "_taskflowstatusId": "61bfea3fa30efb003811d625",
+      "effort": null,
+      "objectType": "task",
+      "source": "teambition",
+      "divisions": [
+        "scenariofields",
+        "trace",
+        "subtasks",
+        "links"
+      ],
+      "labels": [],
+      "relations": [],
+      "openId": "",
+      "customPos": {},
+      "untilDate": null,
+      "_taskId": "676b67d843c33040d123d2ae",
+      "project": {
+        "_id": "5b757f62188bc70018b1d470",
+        "name": "快麦ERP",
+        "isArchived": false,
+        "uniqueIdPrefix": "KMERP",
+        "_organizationId": "57b55d2ebcddfe4720025924"
+      },
+      "executor": {
+        "_id": "5e79c934ddaf0c000132b2d1",
+        "name": "文选",
+        "avatarUrl": "https://tboss.raycloud.com/thumbnail/011r3135645f3015bcb2b447222828f65e93/w/100/h/100"
+      },
+      "taskflowstatus": {
+        "_id": "61bfea3fa30efb003811d625",
+        "name": "待处理",
+        "kind": "start",
+        "rejectStatusIds": [
+          "61bfe485910005005758d4ae",
+          "61bfecc19dfbbb00414a122b",
+          "61bfed07ddbc4e004a729189",
+          "61bfed35a30efb00381208c0",
+          "61bfec7dddbc4e004a7284ef",
+          "61bfe485910005005758d4af",
+          "61bff0b8ddbc4e004a72c80e",
+          "61bff0cea30efb0038123f3e",
+          "650a9c200922fa001e1e7ade",
+          "650a9be0ca7de2001dce0618"
+        ],
+        "pos": 98304,
+        "_taskflowId": "61bfe485910005005758d4ac"
+      },
+      "organization": null,
+      "parent": {
+        "_id": "676b67d843c33040d123d2ae",
+        "content": "【故障】.JbXOll6baM8iE.240206.公司名称：义乌之桃围巾厂-公司id：240206.帮忙看下客户的这个配置是否是有人给取消勾选了还是系统更新给取消了....客户表示没人取消勾选这个配置.但是已经有2次看这个配置都没勾选.",
+        "_creatorId": "666947e46bb41e4f3358470e",
+        "_executorId": "666947e46bb41e4f3358470e",
+        "involveMembers": [
+          "666947e46bb41e4f3358470e",
+          "554b929b967e03267e1dc7d5",
+          "5e79c934ddaf0c000132b2d1"
+        ],
+        "isDone": false,
+        "isArchived": false,
+        "_taskflowstatusId": "61bfea3fa30efb003811d625",
+        "_scenariofieldconfigId": "61bfe4851fe55e393b4bd86e",
+        "_sprintId": null,
+        "visible": "members",
+        "created": "2024-12-25T02:03:04.812Z"
+      },
+      "relationsString": "[]",
+      "tags": [],
+      "priorityOption": {
+        "name": "较低",
+        "color": "grey"
+      }
+    },
+    {
+      "_id": "6705e235f5425f001dd98e5e",
+      "_creatorId": "62467681a123364cb9e73f69",
+      "_executorId": "5e79c934ddaf0c000132b2d1",
+      "_projectId": "5b757f62188bc70018b1d470",
+      "_tasklistId": "62c529670b4c77001d41a387",
+      "_organizationId": null,
+      "tagIds": [],
+      "_stageId": "62c529670b4c77001d41a388",
+      "visible": "members",
+      "involveMembers": [
+        "5e79c934ddaf0c000132b2d1",
+        "62467681a123364cb9e73f69"
+      ],
+      "workTime": {
+        "totalTime": 0,
+        "usedTime": 0,
+        "unit": "minute"
+      },
+      "updated": "2024-10-09T09:00:28.770Z",
+      "created": "2024-10-09T01:53:57.659Z",
+      "isArchived": false,
+      "isDone": false,
+      "isTopInProject": false,
+      "priority": 0,
+      "pos": 65536,
+      "startDate": null,
+      "dueDate": null,
+      "accomplished": null,
+      "note": "",
+      "content": "【bug】合单预发货，再进行缺货拆分，运单号给了付款时间较早的单，期望：运单号给有库存的，tj 56750 tid 627633394504192,627633492955648 clueid 627633594700288903",
+      "recurrence": null,
+      "_sourceId": null,
+      "sourceDate": null,
+      "subtasks": [],
+      "ancestorIds": [
+        "659380d4d41543001e705e0b",
+        "656559cc5160f5001d82b18e"
+      ],
+      "customfields": [],
+      "commentsCount": 0,
+      "attachmentsCount": 0,
+      "likesCount": 0,
+      "objectlinksCount": 0,
+      "uniqueId": 215113,
+      "badges": {
+        "objectlinksCount": 0,
+        "commentsCount": 0,
+        "attachmentsCount": 0,
+        "likesCount": 0
+      },
+      "subtaskCount": {
+        "total": 0,
+        "done": 0
+      },
+      "reminder": {
+        "type": "unset",
+        "date": null,
+        "members": [],
+        "_creatorId": null,
+        "rules": []
+      },
+      "storyPoint": null,
+      "progress": 0,
+      "rating": 0,
+      "isFavorite": false,
+      "_scenariofieldconfigId": "5b757f62bd658b0001a87059",
+      "shareStatus": 0,
+      "_sprintId": null,
+      "_taskflowstatusId": "6184ce1b933f542a1a06df37",
+      "effort": null,
+      "objectType": "task",
+      "source": "teambition",
+      "divisions": [
+        "scenariofields",
+        "trace",
+        "subtasks",
+        "links"
+      ],
+      "labels": [],
+      "relations": [],
+      "openId": "",
+      "customPos": {},
+      "untilDate": null,
+      "_taskId": "659380d4d41543001e705e0b",
+      "project": {
+        "_id": "5b757f62188bc70018b1d470",
+        "name": "快麦ERP",
+        "isArchived": false,
+        "uniqueIdPrefix": "KMERP",
+        "_organizationId": "57b55d2ebcddfe4720025924"
+      },
+      "executor": {
+        "_id": "5e79c934ddaf0c000132b2d1",
+        "name": "文选",
+        "avatarUrl": "https://tboss.raycloud.com/thumbnail/011r3135645f3015bcb2b447222828f65e93/w/100/h/100"
+      },
+      "taskflowstatus": {
+        "_id": "6184ce1b933f542a1a06df37",
+        "name": "待处理",
+        "kind": "start",
+        "rejectStatusIds": [
+          "61c4127cddbc4e004a856fd1",
+          "61c412cda30efb0038249a78"
+        ],
+        "pos": 65536,
+        "_taskflowId": "6184ce1b933f542a1a06df36"
+      },
+      "organization": null,
+      "parent": {
+        "_id": "659380d4d41543001e705e0b",
+        "content": "【交易】【郑杰煜-洋菠】合单预发订单拆单时单号分配判断优先给有库存的订单再给付款时间早的订单",
+        "_creatorId": "60375e5f1f9f030001189e5a",
+        "_executorId": "62467681a123364cb9e73f69",
+        "involveMembers": [
+          "6142ae661f9f03000118a1f9",
+          "60375e5f1f9f030001189e5a",
+          "5fd85e9b1f9f030001189d86",
+          "5e79c934ddaf0c000132b2d1",
+          "62467681a123364cb9e73f69"
+        ],
+        "isDone": false,
+        "isArchived": false,
+        "_taskflowstatusId": "62456b0bc87af9002a968990",
+        "_scenariofieldconfigId": "5b757f62bd658b0001a87064",
+        "_sprintId": null,
+        "visible": "members",
+        "created": "2024-01-02T03:19:48.217Z"
+      },
+      "relationsString": "[]",
+      "tags": [],
+      "priorityOption": {
+        "name": "较低",
+        "color": "grey"
+      }
+    },
+    {
+      "_id": "667bd54a053cd1001e0704f3",
+      "_creatorId": "58d4e38a3396142a3408165a",
+      "_executorId": "5e79c934ddaf0c000132b2d1",
+      "_projectId": "5b757f62188bc70018b1d470",
+      "_tasklistId": "62c529670b4c77001d41a387",
+      "_organizationId": null,
+      "tagIds": [],
+      "_stageId": "62c529670b4c77001d41a388",
+      "visible": "members",
+      "involveMembers": [
+        "58d4e38a3396142a3408165a",
+        "5e79c934ddaf0c000132b2d1"
+      ],
+      "workTime": {
+        "totalTime": 0,
+        "usedTime": 0,
+        "unit": "minute"
+      },
+      "updated": "2024-07-01T02:13:18.172Z",
+      "created": "2024-06-26T08:46:02.840Z",
+      "isArchived": false,
+      "isDone": false,
+      "isTopInProject": false,
+      "priority": 0,
+      "pos": 131072,
+      "startDate": null,
+      "dueDate": null,
+      "accomplished": null,
+      "note": "TradeOrderSyncItemTagFill\n\n这个帮忙加几个优化\n\n1、如果order中已经有OrderItemTags数据了不再去查询一次数据库表\n\n2、如果开了需要展示名字的，只对于没有OrderItemTagNames的order做dubbo的查询渲染\n3、现有数据库中有百分之75的表是没有这个数据的，这里是否可以走业务上来规避空查询",
+      "content": "【SRE】tradeFill逻辑优化- TradeOrderSyncItemTagFill",
+      "recurrence": null,
+      "_sourceId": null,
+      "sourceDate": null,
+      "subtasks": [],
+      "ancestorIds": [
+        "667bb62b6b19cc00224f61ea"
+      ],
+      "customfields": [
+        {
+          "_customfieldId": "5ec6028e8d0424e9b7508861",
+          "type": "number",
+          "values": [
+            "120"
+          ],
+          "value": [
+            {
+              "title": "120",
+              "meta": {
+                "unit": "minute"
+              }
+            }
+          ]
+        }
+      ],
+      "commentsCount": 0,
+      "attachmentsCount": 0,
+      "likesCount": 0,
+      "objectlinksCount": 0,
+      "uniqueId": 194540,
+      "badges": {
+        "objectlinksCount": 0,
+        "commentsCount": 0,
+        "attachmentsCount": 0,
+        "likesCount": 0
+      },
+      "subtaskCount": {
+        "total": 0,
+        "done": 0
+      },
+      "reminder": {
+        "type": "unset",
+        "date": null,
+        "members": [],
+        "_creatorId": null,
+        "rules": []
+      },
+      "storyPoint": null,
+      "progress": 0,
+      "rating": 0,
+      "isFavorite": false,
+      "_scenariofieldconfigId": "5b757f62bd658b0001a87064",
+      "shareStatus": 0,
+      "_sprintId": null,
+      "_taskflowstatusId": "61bfea3fa30efb003811d625",
+      "effort": null,
+      "objectType": "task",
+      "source": "teambition",
+      "divisions": [
+        "scenariofields",
+        "trace",
+        "subtasks",
+        "links"
+      ],
+      "labels": [],
+      "relations": [],
+      "openId": "",
+      "customPos": {},
+      "untilDate": null,
+      "_taskId": "667bb62b6b19cc00224f61ea",
+      "project": {
+        "_id": "5b757f62188bc70018b1d470",
+        "name": "快麦ERP",
+        "isArchived": false,
+        "uniqueIdPrefix": "KMERP",
+        "_organizationId": "57b55d2ebcddfe4720025924"
+      },
+      "executor": {
+        "_id": "5e79c934ddaf0c000132b2d1",
+        "name": "文选",
+        "avatarUrl": "https://tboss.raycloud.com/thumbnail/011r3135645f3015bcb2b447222828f65e93/w/100/h/100"
+      },
+      "taskflowstatus": {
+        "_id": "61bfea3fa30efb003811d625",
+        "name": "待处理",
+        "kind": "start",
+        "rejectStatusIds": [
+          "61bfe485910005005758d4ae",
+          "61bfecc19dfbbb00414a122b",
+          "61bfed07ddbc4e004a729189",
+          "61bfed35a30efb00381208c0",
+          "61bfec7dddbc4e004a7284ef",
+          "61bfe485910005005758d4af",
+          "61bff0b8ddbc4e004a72c80e",
+          "61bff0cea30efb0038123f3e",
+          "650a9c200922fa001e1e7ade",
+          "650a9be0ca7de2001dce0618"
+        ],
+        "pos": 98304,
+        "_taskflowId": "61bfe485910005005758d4ac"
+      },
+      "organization": null,
+      "parent": {
+        "_id": "667bb62b6b19cc00224f61ea",
+        "content": "【SRE】tradeFill逻辑优化",
+        "_creatorId": "58d4e38a3396142a3408165a",
+        "_executorId": "58d4e38a3396142a3408165a",
+        "involveMembers": [
+          "58d4e38a3396142a3408165a",
+          "60a1ff5e1f9f030001189f9f",
+          "5e79c934ddaf0c000132b2d1"
+        ],
+        "isDone": false,
+        "isArchived": false,
+        "_taskflowstatusId": "5b757f62188bc70018b1d472",
+        "_scenariofieldconfigId": "5b757f62bd658b0001a87051",
+        "_sprintId": null,
+        "visible": "members",
+        "created": "2024-06-26T06:33:15.366Z"
+      },
+      "relationsString": "[]",
+      "tags": [],
+      "priorityOption": {
+        "name": "较低",
+        "color": "grey"
+      }
+    }
+  ]
+}
